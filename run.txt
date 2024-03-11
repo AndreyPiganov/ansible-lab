@@ -1,0 +1,7 @@
+ansible-playbook playbook.yml -i hosts.ini --tags user
+
+ansible-playbook playbook.yml -i hosts.ini --tags git
+
+ansible-playbook playbook.yml -i hosts.ini --tags clone
+
+ansible-playbook playbook.yml -i hosts.ini --tags nginx
